@@ -1,237 +1,237 @@
 
     
     header{
-        font-size: 22px;
-        padding: .05em;
-        background:#8C43FF;
-      }
-      
-      
-      h1 {
-          color: white;
-          background-color: #8C43FF;
-          font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-          padding:.35em ;
-          
-      }
-      
-      
-      section{
-        background:white;
-        width:100% ;
-      
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        border: 5px ridge #8C43FF;
-      
-      
-      }
-      h2{
-        padding: 8px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        color: black;
-        border-bottom: 3px ridge #8C43FF;
-        border-top-left-radius: 1px;
-        margin-right: 26px;
-        font-size: xx-large;
-        
-        
-      }
-  
-      /* parrafo introduccion personal */
-      p{
-        color:black;
-        font-size: medium;
-        text-indent: 40px;
-        margin-left: 10px;
-        text-align: left;
-      }
-  
-  
-  
-  
-      /* PIE DE LAS PAGINAS */
-  
-  
-      footer{
-      
-      background-color:#343a40;
-      color: white;
-      text-align: center;
-      border-top: 5px ridge yellow;
-      width:100%;
-      height:35px;
-      position: fixed;
-      bottom: 0%;
-      left:0%;
-      text
-      
-  
+      font-size: 22px;
+      padding: .05em;
+      background:#8C43FF;
+    }
     
-  
-      
-      }
-       
-      
-      
     
-      .type{
-        font-family: -apple-system;
-        color: #8C43FF;
-        background-color: white;
-        width: 100%;
-        height: 25px;
-        margin-bottom: 5px ;
-        
-      }
-      
-      textarea{
-      
-        min-width:0%;
-        max-width: 100%;
-        max-height: 100%;
-        min-height: 100%;
-      }
-      #boton{
+    h1 {
+        color: white;
         background-color: #8C43FF;
-        color:white;
-        font-size: medium;
-        margin-left:450px ;
-      }
-      
-      ::placeholder{
-        font-size: medium;
-      }
-      /* imagen personal */
-      #imagenpersonal{
-  
-      width: 100%;
-      height: 100%;
-      
-      }
-      /* imagenes de portafolio */
-      img{
-        opacity: .34;
-        width: 95%;
-        height: 50%;
-        margin: .1em;
+        font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        padding:.35em ;
         
-      }
-  
-  /* opacidad de las imagenes */
-      img:hover {
-        opacity: 1;
-      }
-      /* parrafo de las imagenes */
-      #p1, #p2, #p3, #p4, #p5 {
-      width: 90%;
-      height: 21px;
-      color: white;
-      font-weight: bold;
-      background-color:mediumslateblue ;
-      margin-top: -50px;
-      opacity: 1;
-      text-align: center;
-      
-      
-      }
-  
-      /* lineas HR  */
-      hr{
-          border-color:#8C43FF solid 3px;
-          width: 100%;
-      
-      }
-      @media only screen and (max-width: 980px) {
-        /* For desktop layoy: */
-        section {
-          background-color: white;
-          border:orange;
-        }
-        p{
-            color:mediumvioletred;
-  
-        }
-          
-          
-  
-        }
-        hr{ 
-            border:teal
-        }
-          
+    }
     
     
-     @media only screen and (max-width: 768px) {
-              /* For tablets: */
-    section {
-      background-color:white;
-      height: 120%;
-  
-      border: orange ;
-    }    
-    p {
-      color:peru;
+    section{
+      background:white;
+      width:100% ;
+    
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      border: 5px ridge #8C43FF;
+    
+    
     }
-    h2 {
-        color: palevioletred;
-        font-size: 1.5rem;
+    h2{
+      padding: 8px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      color: black;
+      border-bottom: 3px ridge #8C43FF;
+      border-top-left-radius: 1px;
+      margin-right: 26px;
+      font-size: xx-large;
+      
+      
     }
-    header{
-        background: orange;
+
+    /* parrafo introduccion personal */
+    p{
+      color:black;
+      font-size: medium;
+      text-indent: 40px;
+      margin-left: 10px;
+      text-align: left;
     }
+
+
+
+
+    /* PIE DE LAS PAGINAS */
+
+
     footer{
-        background-color:mediumslateblue ;
+    
+    background-color:#343a40;
+    color: white;
+    text-align: center;
+    border-top: 5px ridge yellow;
+    width:100%;
+    height:35px;
+    position: fixed;
+    bottom: 0%;
+    left:0%;
+    text
+    
+
+  
+
+    
+    }
+     
+    
+    
+  
+    .type{
+      font-family: -apple-system;
+      color: #8C43FF;
+      background-color: white;
+      width: 100%;
+      height: 25px;
+      margin-bottom: 5px ;
+      
+    }
+    
+    textarea{
+    
+      min-width:0%;
+      max-width: 100%;
+      max-height: 100%;
+      min-height: 100%;
+    }
+    #boton{
+      background-color: #8C43FF;
+      color:white;
+      font-size: medium;
+      margin-left:450px ;
+    }
+    
+    ::placeholder{
+      font-size: medium;
+    }
+    /* imagen personal */
+    #imagenpersonal{
+
+    width: 100%;
+    height: 100%;
+    
+    }
+    /* imagenes de portafolio */
+    img{
+      opacity: .34;
+      width: 95%;
+      height: 50%;
+      margin: .1em;
+      
+    }
+
+/* opacidad de las imagenes */
+    img:hover {
+      opacity: 1;
+    }
+    /* parrafo de las imagenes */
+    #p1, #p2, #p3, #p4, #p5 {
+    width: 90%;
+    height: 21px;
+    color: white;
+    font-weight: bold;
+    background-color:mediumslateblue ;
+    margin-top: -50px;
+    opacity: 1;
+    text-align: center;
+    
+    
+    }
+
+    /* lineas HR  */
+    hr{
+        border-color:#8C43FF solid 3px;
         width: 100%;
-        border: mediumvioletred  3em; 
-  
+    
     }
-    h4{
-        color:palevioletred;
-        text-align: center;
+    @media only screen and (max-width: 980px) {
+      /* For desktop layoy: */
+      section {
+        background-color: white;
+        border:orange;
+      }
+      p{
+          color:mediumvioletred;
+
+      }
+        
+        
+
+      }
+      hr{ 
+          border:teal
+      }
+        
   
-    }
-              
   
-  
-  
-  
-  
-              @media only screen and (max-width: 640px) {
-                /* For iphones: */
+   @media only screen and (max-width: 768px) {
+            /* For tablets: */
   section {
-      background-color: palevioletred;
+    background-color:white;
+    height: 120%;
+
+    border: orange ;
+  }    
+  p {
+    color:peru;
   }
-  hr{
-      border:white
+  h2 {
+      color: palevioletred;
+      font-size: 1.5rem;
+  }
+  header{
+      background: orange;
+  }
+  footer{
+      background-color:mediumslateblue ;
+      width: 100%;
+      border: mediumvioletred  3em; 
+
+  }
+  h4{
+      color:palevioletred;
+      text-align: center;
+
+  }
+            
+
+
+
+
+
+            @media only screen and (max-width: 640px) {
+              /* For iphones: */
+section {
+    background-color: palevioletred;
+}
+hr{
+    border:white
+}
+p{
+color:white;
+
+
+}
+h1{
+    background-color: white;
+    color:hotpink;
+}
+  h2{
+      color: white;
   }
   p{
-  color:white;
+  font-size: 1.25rem;
+  }
+  footer{
+      background-color: black ;
+      text-align: center;
+      
+  }
+     hr{
+         border:white;
+     }   
+      h4{
+          color:white;
+      }
+  nav{
+      background-color: yellow;
+  }
   
   
-  }
-  h1{
-      background-color: white;
-      color:hotpink;
-  }
-    h2{
-        color: white;
-    }
-    p{
-    font-size: 1.25rem;
-    }
-    footer{
-        background-color: black ;
-        text-align: center;
-        
-    }
-       hr{
-           border:white;
-       }   
-        h4{
-            color:white;
-        }
-    nav{
-        background-color: yellow;
-    }
-    
-    
